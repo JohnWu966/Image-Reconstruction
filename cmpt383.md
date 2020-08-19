@@ -6,17 +6,19 @@ The Reconstitution Process follows 5 steps, and uses three different programming
 
 Step 1: Using NodeJS, Take in a png from the user 
 
+![originalImage](readmeFiles/image2a.png)
+
 Step 2: Use Java to resize the picture. The project produces the best output with an input that is larger than 1000x1000px. If it is smaller than those dimensions, then it'llb be scaled up. Its width and Height are then rounded to the nearest multiple of 50, in order to help with calculation purposes.
 
-![ResizedImage](readmeFiles/image2a.png)
+![ResizedImage](readmeFiles/image2b.png)
 
 Step 3: Use Golang to find the average color of each 25px x 25px square. Output a pixelized version of the original image.
 
-![PixelizedImage](readmeFiles/image2b.png)
+![PixelizedImage](readmeFiles/image2c.png)
 
 Step 4: Using Java, iterate through each 25px x 25px square, extract a picture off of https://www.designspiration.com/ that has a matching color. Stitch all of the pictures together into one 'reconstituted image'
 
-![ReconstitutedImage](readmeFiles/image2c.png)
+![ReconstitutedImage](readmeFiles/image2d.png)
 
 Step 5: Using NodeJs, display the result.
 
