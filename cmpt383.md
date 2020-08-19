@@ -31,6 +31,7 @@ Communication between programming languages were handled by having each process 
 1. Enter the project folder in Terminal/Command Prompt
 2. Type `vagrant up` to start the Virtual Machine
 3. Type `vagrant ssh` to enter the Virtual Machine
+ 1. If the `vagrant@127.0.0.1: Permission denied (publickey)` error occurs, type in `set VAGRANT_PREFER_SYSTEM_BIN=0`
 4. Type `cd project` to enter the VM's project folder 
 5. Type `node uploadFile.js` to start the server.
 6. Outside of the Virtual Machine, using a web browser, go to `localhost:8000`.
