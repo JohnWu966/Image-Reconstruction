@@ -54,7 +54,7 @@ function pixelate(){
   console.log("Pixelating...");
 	var exec = require('child_process').exec, child;
 	// exec('cd ./public/pictures');
-	child = exec("./pixelateImage",
+	child = exec("pixelateImage.exe",
   	function (error, stdout, stderr){
 	    console.log('stdout: ' + stdout);
 	    console.log('stderr: ' + stderr);
